@@ -7,15 +7,15 @@
 </head>
 <body>
 <h2>Άναψε Λάμπα Σβήσε Λάμπα</h2>
-<img src="bulboff.gif" id="mylamp" onclick="anapse()" onclick="svise()">
+<img src="bulboff.gif" id="mylamp" onclick="anapse()" ondblclick="svise()">
 <script>
 
 function anapse(){
 var l=document.querySelector("#mylamp");
 l.src="bulbon.gif"}
 function svise(){
-var m=l;
-m.src="bulboff.gif"}}
+var l=document.querySelector("#mylamp");
+l.src="bulboff.gif"}}
 </script>
 </body>
 </html>
