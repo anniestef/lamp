@@ -8,22 +8,15 @@
 <body>
   <h2>Άναψε Λάμπα </br>Σβήσε Λάμπα</h2>
   </br>
-<img src="" id="mylamp" onclick="anapse()" onclick="svise()">
+<img src="bulboff.gif" id="mylamp" onclick="anapse()" ondblclick="svise()">
 <script>
 
 function anapse(){
-var mylamp=document.querySelector("#mylamp");
-  if (mylamp=="bulboff.gif"){
-mylamp.src="bulbon.gif"}
-}
-
+var l=document.querySelector("#mylamp");
+l.src="bulbon.gif"}
 function svise(){
-var mylamp=document.querySelector("#mylamp");
-  if (mylamp=="bulbon.gif"){
-mylamp.src="bulboff.gif"}
-}
+var l=document.querySelector("#mylamp");
+l.src="bulboff.gif"}
 </script>
-
 </body>
 </html>
-
